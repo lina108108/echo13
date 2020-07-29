@@ -18,4 +18,6 @@ class MobileBankApiTestShouldPut {
                 .statusCode(200)
                 .body("data", equalTo("Petrov"));
     }
+
+
 }
